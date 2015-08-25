@@ -1,0 +1,202 @@
+.topinfo, .detail, .relation {
+  width: 1200px;
+  margin: 14px auto 0;
+  overflow: hidden;
+}
+.topinfo {
+  height: 106px;
+  background: #ffffff;
+}
+.topinfo .info {
+  height: 74px;
+  margin: 15px 20px;
+}
+.topinfo .info .pic {
+  vertical-align: middle;
+  margin-right: 30px;
+}
+.topinfo .info .name {
+  vertical-align: middle;
+  font-size: 40px;
+  color: #000;
+}
+.topinfo .wan {
+  display: inline-block;
+  _display: inline;
+  margin-left: 60px;
+  vertical-align: middle;
+}
+.topinfo .wan a {
+  display: inline-block;
+  _display: inline;
+  width: 55px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+.topinfo .wan .active {
+  background: #d6d6d6;
+}
+.topinfo .wan .border {
+  border-right: 1px solid #000;
+  margin: 0 5px;
+}
+.detail .float {
+  float: left;
+  _display: inline-block;
+}
+.detail .left {
+  width: 620px;
+  height: 100%;
+  margin-right: 15px;
+  background: #ffffff;
+}
+.detail .right {
+  width: 565px;
+  height: 100%;
+  background: #F9F9F9;
+}
+.detail .right .top {
+  height: 60px;
+}
+.detail .right .top .order {
+  float: right;
+  margin-right: 30px;
+  color: #2c5979;
+  line-height: 60px;
+}
+.detail .right .comment {
+  margin: 0 15px;
+}
+.detail .right .comment .list {
+  background: #FFF;
+}
+.detail .right .comment .list li {
+  position: relative;
+  padding: 15px 0 10px 7px;
+  border-top: 1px dotted #e1e4e5;
+}
+.detail .right .comment .list .pic {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.detail .right .comment .list .text {
+  overflow: hidden;
+  line-height: 22px;
+}
+.detail .right .comment .list .text a {
+  color: #0078b6;
+}
+.detail .right .comment .list .text .date {
+  color: #999;
+}
+.detail .right .comment .list .tools {
+  padding-right: 5px;
+  text-align: right;
+}
+.detail .right .comment .list .tools .reply {
+  color: #7aa5b9;
+}
+.detail .right .comment .list .tags {
+  position: absolute;
+  top: 15px;
+  left: -12px;
+  width: 15px;
+  height: 15px;
+}
+.detail .right .comment .reply {
+  margin-top: 5px;
+}
+.detail .right .comment .reply textarea {
+  width: 100%;
+  height: 115px;
+  border: 1px solid #B5B5B5;
+}
+.detail .right .comment .reply .tools {
+  height: 22px;
+  line-height: 22px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+.detail .right .comment .reply .tools .submit {
+  float: right;
+  width: 44px;
+  background: #666;
+  border: 1px solid #B6B6B6;
+  text-align: center;
+  color: #FFF;
+}
+.detail .right .comment .reply .tools .uploadimg {
+  display: inline-block;
+  height: 22px;
+  width: 35px;
+  padding-left: 19px;
+  background: #ffffff url(../img/upload.png) no-repeat 5px center;
+  text-align: center;
+  color: #c93a3a;
+}
+.relation {
+  height: 295px;
+  background: #ffffff;
+}
+.relation .h {
+  height: 48px;
+  line-height: 48px;
+  margin-bottom: 5px;
+  background: url(../img/relation.png) no-repeat 11px 50%;
+  text-indent: -999999em;
+}
+.relation .item {
+  width: 1090px;
+  height: 200px;
+  margin: 0 auto;
+}
+.relation .item li {
+  float: left;
+  _display: inline;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 35px;
+}
+.relation .item .bar, .relation .item .opacity {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+.relation .item .opacity {
+  z-index: 0;
+  opacity: 0.9;
+  background: #9A9A9A;
+}
+.relation .item .bar {
+  z-index: 9;
+}
+.relation .item .title {
+  display: block;
+  padding-left: 5px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #FFF;
+}
+.relation .item .wan {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: 12px;
+}
+.relation .item .wan a {
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  color: #FFF;
+}
+.relation .item .wan .r {
+  padding-right: 5px;
+  border-right: 1px solid #FFF;
+}

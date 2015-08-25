@@ -1,0 +1,90 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>zplaying register</title>
+    <!--#include file="./mod/assets.vm"-->
+    <link type="text/css" rel="stylesheet" href="./assets/css/register.css" />
+</head>
+<body>
+    <!--#include virtual="./mod/head.vm"-->
+    <div class="register section">
+        <div class="article mod">
+            <h2>注册</h2>
+            <p class="tips">欢迎来到zplaying，记录、分享、寻找自己的兴趣</p>
+            <form action="#">
+            <table class="form float">
+                <tr>
+                    <td class="label">
+                        <label for="mail">电子邮箱:</label>
+                    </td>
+                    <td>
+                        <input id="mail" type="text" class="text">
+                    </td>
+                    <td>
+                        <span class="error">邮箱输入错误</span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="nick">昵称:</label>
+                        </td>
+                        <td class="input">
+                            <input id="nick" type="text" class="text">
+                        </td>
+                        <td class="err">
+                            <span class="error">昵称不符合规则</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label>性别:</label>
+                        </td>
+                        <td>
+                            <input type="radio" checked name="sex" id="boy" />
+                            <label for="boy">男</label>
+                            <input type="radio" name="sex" id="girl" />
+                            <label for="girl">女</label>
+                        </td>
+                        <td>
+                            <span class="error"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="password">密码:</label>
+                        </td>
+                        <td>
+                            <input id="password" type="password" class="text">
+                        </td>
+                        <td>
+                            <span class="error">密码不符合规则</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">
+                            <label for="repassword">确认密码:</label>
+                        </td>
+                        <td>
+                            <input id="repassword" type="password" class="text">
+                        </td>
+                        <td>
+                            <span class="error">前后两次密码错误</span>
+                        </td>
+                    </tr>
+                <tr>
+                    <td></td>
+                    <td class="bttd"><button type="submit">注册</button></td>
+                    <td></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+        <div class="aside float">
+            <p>使用关联账号登陆</p>
+            <a class="weibo" href="">新浪微博</a>
+            <a class="qq" href="">QQ账号</a>
+        </div>
+    </div>
+</body>
+</html>

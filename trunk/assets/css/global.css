@@ -1,0 +1,50 @@
+body{
+	background:#E8E7E3;
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements �ṹԪ�� */
+dl, dt, dd, ul, ol, li, /* list elements �б�Ԫ�� */
+pre, /* text formatting elements �ı���ʽԪ�� */
+form, fieldset, legend, button, input, textarea, /* form elements �?Ԫ�� */
+th, td /* table elements ���Ԫ�� */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** ����Ĭ������ **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 12px/1.5 'Tahoma','simsun'
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* ��б����� */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* ͳһ�ȿ����� */
+small { font-size: 12px; } /* С�� 12px �����ĺ����Ķ����� small �� */
+
+/** �����б�Ԫ�� **/
+ul, ol { list-style: none; }
+
+/** �����ı���ʽԪ�� **/
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+sup { vertical-align: text-top; } /* ���ã����ٶ��иߵ�Ӱ�� */
+sub { vertical-align: text-bottom; }
+
+/** ���ñ?Ԫ�� **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img ������������ img �ޱ߿� */
+button, input, select, textarea { font-size: 100%; } /* ʹ�ñ?Ԫ���� ie ���ܼ̳������С */
+/* ע��optgroup �޷����� */
+
+/** ���ñ��Ԫ�� **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* ���� HTML5 Ԫ�� */
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark { background: #ff0; }

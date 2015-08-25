@@ -1,0 +1,21 @@
+<div id="nav" style="display: none;">
+    <div id="logo">zplaying</div>
+    <ul id="f_nav">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">玩</a></li>
+    </ul>
+    <ul id="c_nav">
+        <li><a href="#">山地车</a></li>
+        <li><a href="#">公路车</a></li>
+        <li><a href="#">户外</a></li>
+    </ul>
+    <div id="login"><a href="#">注册</a>|<a href="#">登陆</a>
+    </div>
+    <div id="my_center">
+        <a href="#">玄瞳</a>|<a href="#">发表</a>|<a href="#">消息</a>
+        <ul id="sms">
+            <li>您的关注的乐子有了5条新消息</li>
+            <li>有5个人在关注的乐子里和您对话</li>
+        </ul>
+    </div>
+</div>
